@@ -19,7 +19,21 @@ public class Beersong {
     }
     static void Ninety_Nine_Bottles_Of_Beer(){
 
-       
+       int BeerLeft = 99;
+        String word = "bottles";
+        while (BeerLeft > 0) {
+            System.out.println(BeerLeft + " " + word + " of beer on the wall, " + BeerLeft + " " + word + " of beer");
+            BeerLeft = BeerLeft - 1;
+            if (BeerLeft == 1) {
+                word = "bottle"; //ONE bottle
+            }
+            if (BeerLeft > 0) {
+                System.out.println("Take one down, pass it round " + BeerLeft + " " + word + " of beer");
+            }
+        }
+        if (BeerLeft == 0) {
+            System.out.println("No more bottles of beer");
+        }
    }
     
 }
