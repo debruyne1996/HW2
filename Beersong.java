@@ -15,7 +15,7 @@ public class Beersong {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         Ninety_Nine_Bottles_Of_Beer();
     }
     static void Ninety_Nine_Bottles_Of_Beer(){
 
